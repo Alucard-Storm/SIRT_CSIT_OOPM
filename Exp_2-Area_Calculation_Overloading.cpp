@@ -22,10 +22,7 @@ double area(double length, double width) {
 
 // Area of triangle
 double area(double base, double height, char shape) {
-    if (shape == 't' || shape == 'T') {
         return 0.5 * base * height;  // ½ * b * h
-    }
-    return 0;  // Invalid shape indicator
 }
 
 int main() {
